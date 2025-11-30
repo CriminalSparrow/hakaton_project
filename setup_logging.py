@@ -20,7 +20,7 @@ def setup_logging(to_stdout=True,
                   log_file="logs/calorie_app.log"):
     """
     Настройка логирования для калькулятора калорий.
-    
+
     Параметры:
     - to_stdout: выводить лог в консоль
     - use_filter: использовать фильтр для предупреждений/ошибок
