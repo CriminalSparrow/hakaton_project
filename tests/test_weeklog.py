@@ -1,6 +1,6 @@
 from datetime import datetime
-from app.daylog import DayLog
-from app.weeklog import WeekLog
+from daylog import DayLog
+from weeklog import WeekLog
 
 
 def test_week_totals():

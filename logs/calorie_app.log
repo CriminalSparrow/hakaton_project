@@ -1,0 +1,88 @@
+2025-11-30 13:08:16,357 | WARNING | Файл дневника не найден: daylogs\Тест4_2025-11-30.csv
+2025-11-30 13:08:18,011 | WARNING | Файл дневника не найден: daylogs\Тест4_2025-11-30.csv
+2025-11-30 13:08:19,350 | INFO | Дневник сохранен: daylogs\Тест4_2025-11-30.csv (0 записей)
+2025-11-30 13:08:22,998 | INFO | Дневник загружен: daylogs\Тест4_2025-11-30.csv (0 записей)
+2025-11-30 13:08:25,428 | INFO | Дневник сохранен: daylogs\Тест4_2025-11-30.csv (0 записей)
+2025-11-30 13:08:29,485 | INFO | Дневник сохранен: daylogs\Тест4_2025-11-30.csv (5 записей)
+2025-11-30 14:08:26,310 | INFO | Дневник загружен: daylogs\Егор_2025-11-30.csv (7 записей)
+2025-11-30 14:08:32,613 | DEBUG | Popen(['git', 'version'], cwd=C:\VS code projects\hakaton_project, stdin=None, shell=False, universal_newlines=False)
+2025-11-30 14:08:32,718 | DEBUG | Popen(['git', 'version'], cwd=C:\VS code projects\hakaton_project, stdin=None, shell=False, universal_newlines=False)
+2025-11-30 14:08:32,767 | DEBUG | sys.platform='win32', git_executable='git'
+2025-11-30 14:08:32,768 | DEBUG | Popen(['git', 'version'], cwd=C:\VS code projects\hakaton_project, stdin=None, shell=False, universal_newlines=False)
+2025-11-30 14:08:32,806 | DEBUG | Popen(['git', 'rev-parse', '--show-toplevel'], cwd=C:\VS code projects\hakaton_project, stdin=None, shell=False, universal_newlines=False)
+2025-11-30 14:08:32,848 | DEBUG | Popen(['git', 'remote', 'get-url', '--all', 'origin'], cwd=C:\VS code projects\hakaton_project, stdin=None, shell=False, universal_newlines=False)
+2025-11-30 14:08:32,891 | DEBUG | Popen(['git', 'status', '--porcelain', '--untracked-files'], cwd=C:\VS code projects\hakaton_project, stdin=None, shell=False, universal_newlines=False)
+2025-11-30 14:08:32,935 | DEBUG | Popen(['git', 'diff', '--abbrev=40', '--full-index', '-M', '--raw', '-z', '--no-color'], cwd=C:\VS code projects\hakaton_project, stdin=None, shell=False, universal_newlines=False)
+2025-11-30 14:08:32,976 | DEBUG | Popen(['git', 'cat-file', '--batch-check'], cwd=C:\VS code projects\hakaton_project, stdin=<valid stream>, shell=False, universal_newlines=False)
+2025-11-30 14:08:33,014 | DEBUG | Popen(['git', 'rev-list', 'origin/main..main', '--'], cwd=C:\VS code projects\hakaton_project, stdin=None, shell=False, universal_newlines=False)
+2025-11-30 14:08:41,438 | DEBUG | sys.platform='win32', git_executable='git'
+2025-11-30 14:08:41,440 | DEBUG | Popen(['git', 'version'], cwd=C:\VS code projects\hakaton_project, stdin=None, shell=False, universal_newlines=False)
+2025-11-30 14:08:41,495 | DEBUG | Popen(['git', 'rev-parse', '--show-toplevel'], cwd=C:\VS code projects\hakaton_project, stdin=None, shell=False, universal_newlines=False)
+2025-11-30 14:08:41,530 | DEBUG | Popen(['git', 'remote', 'get-url', '--all', 'origin'], cwd=C:\VS code projects\hakaton_project, stdin=None, shell=False, universal_newlines=False)
+2025-11-30 14:08:41,567 | DEBUG | Popen(['git', 'status', '--porcelain', '--untracked-files'], cwd=C:\VS code projects\hakaton_project, stdin=None, shell=False, universal_newlines=False)
+2025-11-30 14:08:41,613 | DEBUG | Popen(['git', 'diff', '--abbrev=40', '--full-index', '-M', '--raw', '-z', '--no-color'], cwd=C:\VS code projects\hakaton_project, stdin=None, shell=False, universal_newlines=False)
+2025-11-30 14:08:41,657 | DEBUG | Popen(['git', 'cat-file', '--batch-check'], cwd=C:\VS code projects\hakaton_project, stdin=<valid stream>, shell=False, universal_newlines=False)
+2025-11-30 14:08:41,709 | DEBUG | Popen(['git', 'rev-list', 'origin/main..main', '--'], cwd=C:\VS code projects\hakaton_project, stdin=None, shell=False, universal_newlines=False)
+2025-11-30 14:12:06,180 | INFO | Ignored error after process had died: OSError(9, 'Неверный дескриптор', None, 6, None)
+2025-11-30 14:12:06,181 | INFO | Ignored error after process had died: OSError(9, 'Неверный дескриптор', None, 6, None)
+2025-11-30 14:12:12,919 | INFO | Дневник загружен: daylogs\Егор_2025-11-30.csv (7 записей)
+2025-11-30 14:12:22,561 | INFO | Дневник загружен: daylogs\Егор_2025-11-30.csv (7 записей)
+2025-11-30 14:24:42,165 | WARNING | Файл дневника не найден: daylogs\unknown_user_2025-11-30.csv
+2025-11-30 14:25:07,894 | WARNING | Файл дневника не найден: daylogs\123_2025-11-30.csv
+2025-11-30 14:25:07,894 | WARNING | Файл дневника не найден: daylogs\123_2025-11-30.csv
+2025-11-30 14:29:27,523 | WARNING | Файл дневника не найден: daylogs\123_2025-11-30.csv
+2025-11-30 14:32:43,048 | WARNING | Файл дневника не найден: daylogs\123_2025-11-30.csv
+2025-11-30 14:57:02,971 | WARNING | Файл дневника не найден: daylogs\123_2025-11-30.csv
+2025-11-30 14:58:20,856 | WARNING | Файл дневника не найден: daylogs\123_2025-11-30.csv
+2025-11-30 15:05:44,078 | WARNING | Файл дневника не найден: daylogs\123_2025-11-30.csv
+2025-11-30 15:06:36,641 | WARNING | Файл дневника не найден: daylogs\123_2025-11-30.csv
+2025-11-30 15:07:17,047 | WARNING | Файл дневника не найден: daylogs\123_2025-11-30.csv
+2025-11-30 15:09:33,934 | WARNING | Файл дневника не найден: daylogs\123_2025-11-30.csv
+2025-11-30 15:09:43,845 | INFO | Дневник сохранен: daylogs\123_2025-11-30.csv (6 записей)
+2025-11-30 15:09:45,506 | INFO | Дневник загружен: daylogs\123_2025-11-30.csv (6 записей)
+2025-11-30 15:09:47,847 | INFO | Дневник загружен: daylogs\123_2025-11-30.csv (6 записей)
+2025-11-30 15:09:52,583 | INFO | Дневник загружен: daylogs\123_2025-11-30.csv (6 записей)
+2025-11-30 15:10:03,574 | INFO | Дневник загружен: daylogs\123_2025-11-30.csv (6 записей)
+2025-11-30 15:10:33,651 | INFO | Дневник загружен: daylogs\123_2025-11-30.csv (6 записей)
+2025-11-30 15:31:29,333 | INFO | Дневник сохранен: daylogs\Егор_2025-11-30.csv (2 записей)
+2025-11-30 15:31:46,066 | INFO | Дневник загружен: daylogs\Егор_2025-11-30.csv (2 записей)
+2025-11-30 15:33:52,685 | INFO | Дневник загружен: daylogs\123_2025-11-30.csv (6 записей)
+2025-11-30 15:33:55,797 | INFO | Дневник загружен: daylogs\123_2025-11-30.csv (6 записей)
+2025-11-30 15:39:14,725 | INFO | Дневник сохранен: daylogs\Егор1_2025-11-30.csv (1 записей)
+2025-11-30 15:39:14,741 | INFO | Дневник сохранен: daylogs\Егор1_2025-11-29.csv (1 записей)
+2025-11-30 15:39:18,529 | INFO | Дневник загружен: daylogs\Егор1_2025-11-29.csv
+                    (1 записей)
+2025-11-30 15:39:18,544 | INFO | Дневник загружен: daylogs\Егор1_2025-11-30.csv
+                    (1 записей)
+2025-11-30 15:40:05,074 | INFO | Дневник загружен: daylogs\Егор1_2025-11-29.csv
+                    (1 записей)
+2025-11-30 15:40:05,074 | INFO | Дневник загружен: daylogs\Егор1_2025-11-30.csv
+                    (1 записей)
+2025-11-30 15:40:16,596 | INFO | Дневник загружен: daylogs\Егор_2025-11-30.csv
+                    (2 записей)
+2025-11-30 15:40:46,269 | INFO | Дневник загружен: daylogs\Егор_2025-11-30.csv
+                    (2 записей)
+2025-11-30 15:40:53,803 | INFO | Дневник загружен: daylogs\Егор1_2025-11-29.csv
+                    (1 записей)
+2025-11-30 15:40:53,803 | INFO | Дневник загружен: daylogs\Егор1_2025-11-30.csv
+                    (1 записей)
+2025-11-30 15:41:12,828 | INFO | Дневник сохранен: daylogs\Егор1_2025-11-30.csv (1 записей)
+2025-11-30 15:41:12,828 | INFO | Дневник сохранен: daylogs\Егор1_2025-11-29.csv (1 записей)
+2025-11-30 15:41:49,780 | INFO | Дневник загружен: daylogs\Егор1_2025-11-29.csv
+                    (1 записей)
+2025-11-30 15:41:49,781 | INFO | Дневник загружен: daylogs\Егор1_2025-11-30.csv
+                    (1 записей)
+2025-11-30 15:42:20,261 | INFO | Дневник сохранен: daylogs\Егор1_2025-11-30.csv (1 записей)
+2025-11-30 15:42:20,261 | INFO | Дневник сохранен: daylogs\Егор1_2025-11-29.csv (1 записей)
+2025-11-30 15:42:34,883 | INFO | Дневник загружен: daylogs\Егор1_2025-11-29.csv
+                    (1 записей)
+2025-11-30 15:42:34,885 | INFO | Дневник загружен: daylogs\Егор1_2025-11-30.csv
+                    (1 записей)
+2025-11-30 15:44:53,854 | INFO | Дневник загружен: daylogs\Егор1_2025-11-29.csv
+                    (1 записей)
+2025-11-30 15:44:53,870 | INFO | Дневник загружен: daylogs\Егор1_2025-11-30.csv
+                    (1 записей)
+2025-11-30 15:48:52,878 | INFO | Дневник загружен: daylogs\Егор1_2025-11-29.csv
+                    (1 записей)
+2025-11-30 15:48:52,884 | INFO | Дневник загружен: daylogs\Егор1_2025-11-30.csv
+                    (1 записей)

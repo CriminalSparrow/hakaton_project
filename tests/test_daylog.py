@@ -1,6 +1,6 @@
 import pytest
 from datetime import datetime
-from app.daylog import DayLog
+from daylog import DayLog
 
 
 def test_add_and_total():
