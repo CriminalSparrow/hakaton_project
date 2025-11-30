@@ -1,5 +1,7 @@
 """Тесты для FoodEntry и базы продуктов с КБЖУ."""
 
+# pylint: disable=import-error
+
 import pytest
 
 from entries import FoodEntry
@@ -26,7 +28,7 @@ def test_apple_200g_kbzu():
 
 
 def test_chicken_150g_kbzu():
-    """Проверяем расчёт КБЖУ для 150 г курицы (дробный множитель)"""
+    """Проверяем расчёт КБЖУ для 150 г курицы (дробный множитель)."""
     entry = FoodEntry("курица", 150)
 
     nutrition = PRODUCT_NUTRITION["курица"]

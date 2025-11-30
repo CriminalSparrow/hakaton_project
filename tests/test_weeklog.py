@@ -1,9 +1,15 @@
+"""Тесты недельного отчёта WeekLog."""
+
 from datetime import datetime
+
 from daylog import DayLog
 from weeklog import WeekLog
 
+# pylint: disable=import-error
+
 
 def test_week_totals():
+    """total_by_day возвращает сумму калорий по датам."""
     w = WeekLog()
 
     d1 = DayLog(date=datetime(2025, 11, 24))

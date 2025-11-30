@@ -1,0 +1,19 @@
+[MASTER]
+extension-pkg-whitelist=
+disable=
+    C0114, # missing-module-docstring
+    C0115,
+    C0116,
+    E0001, # syntax-error
+    E0401, # import-error
+
+[MESSAGES CONTROL]
+disable=
+    C0114,
+    C0115,
+    C0116,
+    E0001,
+    E0401,
+
+[FORMAT]
+max-line-length=80
