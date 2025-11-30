@@ -10,6 +10,7 @@ os.makedirs("logs", exist_ok=True)
 
 
 class CaloriesFilter(Filter):
+    # pylint: disable=too-few-public-methods
     """Фильтр: пропускает только WARNING и ERROR"""
     def filter(self, record):
         return record.levelno >= logging.WARNING

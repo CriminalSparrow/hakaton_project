@@ -5,7 +5,8 @@ from daylog import DayLog
 from weeklog import WeekLog
 from daylog_io import save_daylog, load_daylog, list_user_logs
 from entries import FoodEntry, PRODUCT_NUTRITION
-# pylint: disable=broad-exception-caught
+# pylint: disable=broad-exception-caught,too-many-locals
+# pylint: disable=too-many-branches,too-many-statements
 
 
 def parse_date_or_today(date_str: str) -> date:
