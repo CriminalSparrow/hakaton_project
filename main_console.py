@@ -74,17 +74,28 @@ def main():
 
         #  3) Отчёт за неделю
         elif choice == "3":
-            stat = week.total_by_day()
             print("\n===== Отчёт за неделю =====")
 
-            if not stat:
-                print("Нет данных.")
-                continue
+            days = week.week_range()  # список из 7 дней
+            # словарь с суммами для дней, где есть дневники
+            totals_map = week.total_by_day()
 
-            for d in sorted(stat.keys()):
-                s = stat[d]
-                print(f"{d}: {s['kcal']:.0f} ккал (Б:{s['protein']:.1f}\
-                      Ж:{s['fat']:.1f} У:{s['carbs']:.1f})")
+            week_has_data = False
+            for d in days:
+                totals = totals_map.get(d,
+                                        {"kcal": 0,
+                                         "protein": 0,
+                                         "fat": 0,
+                                         "carbs": 0})
+                if totals["kcal"] > 0:
+                    week_has_data = True
+                print(f"{d}: {totals['kcal']:.0f} ккал ",
+                      f"(Б:{totals['protein']:.1f} Ж:{totals['fat']:.1f}\
+У:{totals['carbs']:.1f})")
+
+            if not week_has_data:
+                print("Нет данных за неделю.")
+                continue
 
             print("\nИТОГО за неделю:")
             print(f"Калорий:   {week.total_calories():.0f}")
