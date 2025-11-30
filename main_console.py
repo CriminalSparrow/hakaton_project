@@ -77,21 +77,15 @@ def main():
             print("\n===== Отчёт за неделю =====")
 
             days = week.week_range()  # список из 7 дней
-            # словарь с суммами для дней, где есть дневники
+            # словарь с суммами калорий для дней, где есть дневники
             totals_map = week.total_by_day()
 
             week_has_data = False
             for d in days:
-                totals = totals_map.get(d,
-                                        {"kcal": 0,
-                                         "protein": 0,
-                                         "fat": 0,
-                                         "carbs": 0})
-                if totals["kcal"] > 0:
+                kcal = totals_map.get(d, 0.0)
+                if kcal > 0:
                     week_has_data = True
-                print(f"{d}: {totals['kcal']:.0f} ккал ",
-                      f"(Б:{totals['protein']:.1f} Ж:{totals['fat']:.1f}\
-У:{totals['carbs']:.1f})")
+                print(f"{d}: {kcal:.0f} ккал")
 
             if not week_has_data:
                 print("Нет данных за неделю.")
